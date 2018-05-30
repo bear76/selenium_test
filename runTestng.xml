@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="2"  parallel="methods">
+  <test name="Selenium">
+    <classes>
+      <class name="com.test.day01.TsetNGDemo1">
+        <methods>
+          <include name="testGrid2"/>
+        </methods>
+      </class> <!-- mailtestpro.GridTest -->
+    </classes>
+  </test> <!-- Selenium -->
+</suite> <!-- Default Suite -->
